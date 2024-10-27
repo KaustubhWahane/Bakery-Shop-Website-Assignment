@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
   }
   
@@ -53,22 +51,15 @@
     background-color: #555;
     border-radius: 4px;
   }
-  
-  .banner {
-    position: relative;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+
+  #home{
+    margin-top: 1.5em;
   }
-  
-  .banner img {
-    width: 80%;
-    height: auto;
-    display: block;
+ 
+  img{
+    height: 600px; 
     object-fit: cover;
-    margin: 0 auto;
   }
-    
   section {
     padding: 3rem 1.5rem;
     text-align: center;
@@ -101,7 +92,7 @@
   }
   
   .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-15px);
   }
   
   .contact-form form {
@@ -138,4 +129,7 @@
   button:hover {
     background-color: #555;
   }
+
+
+
   
