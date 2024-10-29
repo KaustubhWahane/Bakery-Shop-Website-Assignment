@@ -8,8 +8,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault(); 
-    alert('Successfully filled!'); 
-    this.reset();
+document.addEventListener("DOMContentLoaded", function() {
+    const form = document.getElementById('myForm');
+
+    if (form) {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            alert('Successfully filled!'); 
+            this.reset();
+        });
+    }
 });
